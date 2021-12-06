@@ -125,7 +125,7 @@ $('#yes').click(function() {
                 text: "Bấm xong thì nhớ bấm inbox nhaaaa :3 iu",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'http://fb.com/CallmeBot206';
+                    window.location = 'm.me/MrDatDepZaii';
                   }
             })
         }
