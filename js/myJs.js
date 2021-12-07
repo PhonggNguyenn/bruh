@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('../sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nếu tớ nói tớ thích cậu thì cậu có đồng ý hong :3',
+        title: 'Tại sao you lại hate me :<<<',
         html: true,
         width: 900,
         padding: '3em',
