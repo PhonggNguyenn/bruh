@@ -119,7 +119,7 @@ $('#yes').click(function() {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'Okiiiii lun <3',
+                confirmButtonText: ' Bấm vào đây nè:3 ',
                 background: '#fff url("../img/iput-bg.jpg")',
                 title: 'Thui không sao tớ hiểu mà:<<',
                 text: "Ghéc cx đc nhma bấm vào đây để nói chuyện với tớ nha!",
