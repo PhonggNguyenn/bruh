@@ -109,20 +109,20 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Thôi ngại lém :<<",
+        cancelButtonText: "Tất nhiên là vì you rất đáng ghéc",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Tất nhiên là có rùi <3'
+        confirmButtonText: 'khum biết nữa:<'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("../img/iput-bg.jpg")',
-                title: 'Tớ biết mà ^^ Yêu cậu 3000',
-                text: "Bấm xong thì nhớ bấm inbox nhaaaa :3 iu",
+                title: 'Thui không sao tớ hiểu mà:<<',
+                text: "Ghéc cx đc nhma bấm vào đây để nói chuyện với tớ nha!",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'https://m.me/100055225954546/';
