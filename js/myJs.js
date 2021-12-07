@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'He luu cậu!',
-        text: 'Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa :3',
+        title: 'He luu :33!',
+        text: 'Tui có điều này muốn hỏi, nhớ phải trả lời thật lòng nhaaa :3',
         imageUrl: '',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Hổng từ chối đượccccccccc :3 iu cậu ";
+    var text = " chắc chắn rùi:3 ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('../sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nếu tớ tỏ tình thì cậu có đồng ý hong :3',
+        title: 'Nếu tớ nói tớ thích cậu thì cậu có đồng ý hong :3',
         html: true,
         width: 900,
         padding: '3em',
@@ -125,7 +125,7 @@ $('#yes').click(function() {
                 text: "Bấm xong thì nhớ bấm inbox nhaaaa :3 iu",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'https://www.messenger.com/t/100035490997520/';
+                    window.location = 'https://m.facebook.com/messages/read/?tid=cid.c.100055047062562%3A100055225954546&surface_hierarchy=unknown';
                   }
             })
         }
